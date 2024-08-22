@@ -73,7 +73,8 @@ export class DiscordAuthorInfo extends LitElement {
 		}
 
 		:host([compact-mode]) .discord-clan-tag {
-			margin-left: 0rem;
+			margin-right: 0.25rem;
+			margin-left: 0;
 		}
 
 		:host .discord-clan-tag span,
